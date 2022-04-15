@@ -1,0 +1,12 @@
+/home/kaykayyali/Testing-Rust/hello-rust/target/debug/deps/httparse-4b95f643148764ae.rmeta: /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/lib.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/iter.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/macros.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/mod.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/sse42.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/avx2.rs
+
+/home/kaykayyali/Testing-Rust/hello-rust/target/debug/deps/libhttparse-4b95f643148764ae.rlib: /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/lib.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/iter.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/macros.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/mod.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/sse42.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/avx2.rs
+
+/home/kaykayyali/Testing-Rust/hello-rust/target/debug/deps/httparse-4b95f643148764ae.d: /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/lib.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/iter.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/macros.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/mod.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/sse42.rs /home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/avx2.rs
+
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/lib.rs:
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/iter.rs:
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/macros.rs:
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/mod.rs:
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/sse42.rs:
+/home/kaykayyali/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.7.0/src/simd/avx2.rs:
