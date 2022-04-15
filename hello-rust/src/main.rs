@@ -1,47 +1,17 @@
 #[macro_use] extern crate rocket;
 use rocket::http::Status;
 use rocket::response::{content, status};
-use serde::Deserialize;
-
-#[derive(Debug, Deserialize)]
-#[serde(rename_all = "PascalCase")]
-struct Person {
-    first_name: String,
-    last_name: String,
-    age: u8,
-    address: Address,
-    phone_numbers: Vec<String>,
+use serde_json;
+use std::fs;
+fn string_to_static_str(s: String) -> &'static str {
+    Box::leak(s.into_boxed_str())
 }
-
-#[derive(Debug, Deserialize)]
-#[serde(rename_all = "PascalCase")]
-struct Address {
-    street: String,
-    city: String,
-    country: String,
-}
-
 #[get("/")]
-fn json() -> status::Custom<content::Json<&'static str>> {
-    let the_file = r#"{
-        "FirstName": "John",
-        "LastName": "Doe",
-        "Age": 43,
-        "Address": {
-            "Street": "Downing Street 10",
-            "City": "London",
-            "Country": "Great Britain"
-        },
-        "PhoneNumbers": [
-            "+44 1234567",
-            "+44 2345678"
-        ]
-    }"#;
-
-    let person: Person = serde_json::from_str(the_file).expect("JSON was not well-formatted");
-    println!("{:?}", person);
-
-    status::Custom(Status::ImATeapot, content::Json(""))
+fn json() -> content::Json<&'static str> {
+    let path = "./src/config.json";
+    let data = fs::read_to_string(path).expect("Unable to read file");
+    let res: serde_json::Value = serde_json::from_str(&data).expect("Unable to parse");
+    content::Json(string_to_static_str(data))
 }
 
 #[launch]
